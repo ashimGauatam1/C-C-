@@ -1,0 +1,18 @@
+--------Road Map
+
+1.  app created inside project
+    python manage.py startnewapp (name)
+
+2.  app register settings
+3.  add path in urls 
+     path('',include('home.urls'))
+4.  views.py
+    - def index(request):
+       return render(request,'home.html')
+5.  urls.py
+from home import views
+    path('',views.index,name='home'),
+    path(.........................)
+
+
+##block

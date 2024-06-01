@@ -1,0 +1,4 @@
+
+ Room	 Name	 Address	 Phone number	 Nationality	 Email	 No of days
+
+ 1	ashim	gutam	1274517792	nepali	ashimguata	5
