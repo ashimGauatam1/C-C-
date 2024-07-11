@@ -19,22 +19,7 @@ class List{
 			newnode->next=head;
 			head=newnode;
 		}
-		void addend(int item){
-			Node* newnode=new Node;
-			newnode->data=item;
-			newnode->next=nullptr;
-			if(head==nullptr){
-				head=newnode;
-			}
-			else{
-				Node*temp=head;
-				while(temp->next!=nullptr){
-					temp=temp->next;
-				}
-				temp->next=newnode;
-			}
-		}
-		void delb(){
+		delb(){
 			if(head==nullptr){
 				return;
 			}
