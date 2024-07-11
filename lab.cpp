@@ -63,3 +63,15 @@ class List{
 			}
 		}
 };
+main(){
+	List l;
+	l.addb(78);
+	l.addb(74);
+	l.addend(77);
+	l.addb(2);
+	l.addend(1);
+//	l.display();
+	l.delb();
+	l.delatlast();
+	l.display();
+}
