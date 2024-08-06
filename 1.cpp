@@ -16,6 +16,6 @@ class Test{
 };
 
 main(){
-	Test t3(7),t4(8),t5;
+	Test t3(7),t4(8),t5,t6;
 	t5.multiply(t3);
 }
